@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylekirjautuminen.css">
+  
+   
+    <title>Vite App</title>
+  </head>
+
+
+  <body class = "center">
+
+    
+
+    <h3>LUO UUSI KÄYTTÄJÄ</h3>
+
+ 
+
+    <form class="create_user_form">
+      <label for="username">Käyttäjänimi</label>
+      <input type="text" name="username" placeholder="test-update4" />
+      <label for="password">Salasana</label>
+      <input type="password" name="password" placeholder="test-pw-update4" />
+      <label for="email">Sähköposti</label>
+      <input type="email" name="email" placeholder="update4@example.com" />
+      <input name="submit" type="submit" value="Luo uusi käyttäjä" class="createuser" />
+    </form>
+    <h3>KIRJAUDU</h3>
+    
+    <div>
+      <form class="login_form">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="test" />
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="test" />
+        <input name="submit" type="submit" value="Kirjaudu sisään" class="loginuser" />
+      </form>
+      <br />
+      
+      <div id="loginResponse"></div>
+    </div>
+
+  
+
+  </body>
+
+  <script type="module" src="/start-auth.js"></script>
+</html>

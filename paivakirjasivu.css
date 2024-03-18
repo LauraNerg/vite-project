@@ -1,0 +1,135 @@
+
+  a:hover { 
+    color: #7c0101;
+  }
+  
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 16px;
+    background-color: #f8cee3;
+    background-image: url("/tulppaani.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+ 
+  button:hover {
+    border-color: #ffffff;
+  }
+
+  h2{
+    color: #0c0c0c;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: double;
+    
+  }
+  h3 {
+    border-bottom: 1px solid rgb(19, 14, 17);
+    margin-top: 50px;
+    background-color: rgb(240, 168, 202);
+    text-decoration:overline
+  }
+
+  .tietotaulu{
+    background-color:#e79acd;
+    
+  }
+
+
+  /* Navigaatiolista tyylittely */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  
+  }
+  
+  li {
+    float: left;
+    background-color: #e79acd;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ce9999;
+  }
+  
+  
+  .styled-table {
+    border-collapse: 1px solid;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(204, 105, 146, 0.15);
+    position: 
+  }
+  
+  .styled-table th,
+  .styled-table td {
+      padding: 20px 40px;
+  }
+  
+  .forms {
+    display: flex; 
+    gap: 30px;
+  }
+  
+  /* Formin tyylittely */
+  form {
+    background-color: #bd3790;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0a0a0a;
+    padding: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    width: 200px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow:#c54e9d
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.Blogi{
+  color: #0a0a0a;
+  background-color:#e79acd;
+}
+#name{
+  background-color: #f8cee3;
+  color: #0a0a0a;
+}
+
+#Mieliala{
+  background-color:#f8cee3;
+
+  color:#0a0a0a;
+  
+}
+
+#merkinta{
+  background-color: #f8cee3;
+  padding: 20px;
+  color: #0a0a0a;
+}
